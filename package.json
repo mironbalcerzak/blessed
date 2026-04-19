@@ -2,7 +2,7 @@
   "name": "blessed",
   "description": "A high-level terminal interface library for node.js.",
   "author": "Christopher Jeffrey",
-  "version": "0.1.81",
+  "version": "0.1.82-ayacli",
   "license": "MIT",
   "main": "./lib/blessed.js",
   "bin": "./bin/tput.js",
@@ -15,7 +15,18 @@
   "engines": {
     "node": ">= 0.8.0"
   },
+  "scripts": {
+    "package": "npm pack"
+  },
   "browserify": {
     "transform": ["./browser/transform.js"]
-  }
+  },
+  "files": [
+    "bin",
+    "browser",
+    "lib",
+    "usr",
+    "vendor",
+    "index.js"
+  ]
 }
