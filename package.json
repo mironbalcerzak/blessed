@@ -16,6 +16,7 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
+    "test": "node executor-test.js",
     "package": "npm pack"
   },
   "browserify": {
